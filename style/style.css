@@ -1,12 +1,132 @@
 html{
-  background-color: #B0E0E6 ;
   text-align: center;
   padding: 0;
   margin: 0;
-  border: solid 5px #800000;
+  border: solid 5px black;
+  background: linear-gradient(to right, #4682B4, #87CEEB);
+}
+
+#container{
+  text-align: center;
+  background-color: ;
+  Display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100% ;
+  Height: auto;
+  padding: 0;
+  margin: 0;
+  background: linear-gradient();
 }
 
 
+nav{
+  width: 100%;
+}
+
+
+.navbar ul{
+   list-style-type: none;
+    background-color:   #0000CD;
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+}
+
+
+.navbar a{
+   color: white;
+   text-decoration: none;
+   padding: 15px;
+   display: block;
+   text-align: center;
+}
+
+
+.navbar a:hover{
+   background-color: lightblue;
+}
+
+
+.navbar li{
+  float: left;
+}
+
+header{
+ width: 100% ;
+ Height: 250px ;
+background: linear-gradient();
+}
+
+.font1{
+  color:  #FA8072;
+  text-shadow: 2px 2px 2px  black;
+  font-family: Impact, fantasy;
+  font-size: 50px;
+}
+
+.font2{
+  color:  #FA8072;
+  text-shadow: 2px 2px 2px  black;
+  font-family: Impact, fantasy;
+  font-size: 25px;
+}
+
+.font2-1{
+  color:  #FA8072;
+  text-shadow: 2px 2px 2px  black;
+  font-family: Impact, fantasy;
+  font-size: 25px;
+}
+
+.font3{
+  font-family: Bookman, URW Bookman L, serif;
+}
+
+main{
+ width: 100% ;
+ Height: 1500px;
+}
+
+section{
+ width: ;
+ Height: ;
+}
+
+footer{
+ width: ;
+ Height: ;
+}
+
+.text1{
+  color: #C0C0C0;  
+}
+
+#ingredientesMassa{
+  color: #C0C0C0;
+}
+
+#ingredientesCalda{
+  color: #C0C0C0;
+}
+
+#modoPreparoMassa{
+  color: #C0C0C0;
+}
+
+#coberturaFinalizacao{
+  color: #C0C0C0;
+}
+
+#boloLiquidificador{
+  color: #C0C0C0;
+}html{
+  text-align: center;
+  padding: 0;
+  margin: 0;
+  background: linear-gradient(to right, #4682B4, #87CEEB);
+}
 
 
 #container{
@@ -17,24 +137,59 @@ html{
   align-items: center;
   justify-content: center;
   width: 100% ;
-  Height: ;
-  border: solid 5px #800000;
-    padding: 0;
+  Height: auto;
+  padding: 0;
   margin: 0;
+  background: linear-gradient();
 }
 
 
 
 
-nav{
-  width: 100% ;
-  Height: 50px ;
-  background-color:   #FFFF00 ;
-  border: solid 5px #800000;
+nav {
+  width: 100%;
+  background-color: #0000CD;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center; /* Centraliza verticalmente os links e a barra de busca */
+  flex-direction: row;
+  padding-right: 15px; /* Evita que o botão fique colado na borda da tela */
+  box-sizing: border-box; /* Garante que o padding não estoure os 100% de largura */
+  box-shadow: 2px 2px 2px black;
+  border: 2px solid   #00008B;
+}
 
 
+.navForms {
+  margin-left: auto; /* Empurra este bloco totalmente para a direita */
+}
 
 
+.navbar ul {
+  list-style-type: none;
+  background-color: #0000CD;
+  padding: 0px;
+  margin: 0px;
+  overflow: hidden;
+}
+
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+  padding: 15px;
+  display: block;
+  text-align: center;
+}
+
+
+.navbar a:hover {
+  background-color: lightblue;
+}
+
+
+.navbar li {
+  float: left;
 }
 
 
@@ -42,21 +197,68 @@ nav{
 
 header{
  width: 100% ;
- Height: 250px ;
- background-color: #6A5ACD ;
- border-bottom: #FFFF00 solid 5px;
+ Height: auto;
+ background: linear-gradient(to right,#000080,#00008B,  #ADD8E6);
+ box-shadow: 2px 2px 2px black;
+ border: 2px solid  #00008B;
+ margin-top: 5px;
 }
+
+
+
+
+.font1{
+  color: #FA8072;
+  text-shadow: 2px 2px 2px  black;
+  font-family: Impact, fantasy;
+  font-size: 60px;
+} /*H1 Titulo Principal*/
+
+
+.font2{
+  color:  #FA8072;
+  text-shadow: 2px 2px 2px  black;
+  font-family: Impact, fantasy;
+  font-size: 30px;
+} /*Alguns texos como o do titulo*/
+
+
+.font2-0{
+  color:  #FA8072;
+  text-shadow: 2px 2px 2px  black;
+  font-family: Impact, fantasy;
+  font-size: 25px;
+  font-style: italic;
+} /*Para titulos menores*/
+
+
+.font2-1{
+  color:  #FA8072;
+  text-shadow: 2px 2px 2px  black;
+  font-family: Impact, fantasy;
+  font-size: 20px;
+} /*Para os Ul*/
 
 
 
 
 main{
  width: 100% ;
- Height: 1500px;
- background-color: #0000FF;
+ Height: auto;
+background: linear-gradient(to right,#000080,#00008B, #ADD8E6);
+ box-shadow: 2px 2px 2px black;
+ border: 2px solid  #00008B;
+ margin-top: 5px;
 }
 
 
+#difText1{
+  background-color: #FFFACD;
+  height: auto;
+  width: 70%;
+  text-align: start;
+  border-left: red 5px solid;
+}
 
 
 section{
@@ -65,60 +267,11 @@ section{
 }
 
 
-
-
 footer{
- width: ;
- Height: ;
-}
-
-
-
-
-#headerTitle{
-  color: #C0C0C0;
-  font-family: Impact, fantasy;
-  font-size: 50px;
-}
-
-
-
-
-.text1{
-  color: #C0C0C0;  
-  font-family: Impact, fantasy;
-  font-size: 25px;
-}
-
-
-
-
-#ingredientesMassa{
-  color: #C0C0C0;
-}
-
-
-
-
-#ingredientesCalda{
-  color: #C0C0C0;
-}
-
-
-
-
-#modoPreparoMassa{
-  color: #C0C0C0;
-}
-
-
-
-
-#coberturaFinalizacao{
-  color: #C0C0C0;
-}
-
-
-#boloLiquidificador{
-  color: #C0C0C0;
+ width: 100% ;
+ Height: auto;
+ background: linear-gradient(to right,#000080,#00008B,  #ADD8E6);
+ box-shadow: 2px 2px 2px black;
+ border: 2px solid  #00008B;
+ margin-top: 5px;
 }
